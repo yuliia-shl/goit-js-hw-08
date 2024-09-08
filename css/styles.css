@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul,
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+} */
+
+/* p {
+    margin-bottom: 24px;
+  } */
+
+img {
+  display: block;
+  /* object-fit: cover; */
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 24px 156px;
+}
+
+.gallery-item {}
+
+.gallery-link {
+  display: block;
+}
+
+.gallery-image {
+  transition: transform 0.3s easy-in-out;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}
+
+.modal {
+  background-color: rgba(46, 47, 66, 0.8);
+}
+
+.modal-img {
+  margin: 0 auto;
+}

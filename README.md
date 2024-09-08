@@ -1,2 +1,3 @@
 # goit-js-hw-08
-JS Home work #8
+
+Java Script Home work #8
