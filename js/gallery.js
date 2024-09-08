@@ -105,7 +105,6 @@ function imageClick(event) {
         instance.element().querySelector('.modal-img').addEventListener('click', () => {
             instance.close();
         });
-
         instance.show();
     }
 }
