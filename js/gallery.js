@@ -97,11 +97,15 @@ function imageClick(event) {
                 class="modal-img"
                 src="${largeImage}" 
                 alt="${event.target.alt}"
-                width="1112" 
+                width="1112"
                 height="640"
             />
         </div>
-        `)
+        `);
+        instance.element().querySelector('.modal-img').addEventListener('click', () => {
+            instance.close();
+        });
+
         instance.show();
     }
 }
